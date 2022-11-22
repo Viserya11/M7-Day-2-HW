@@ -17,7 +17,7 @@ class Latest extends Component {
                   />
                   <Carousel.Caption className="caption">
                     <h3>{book.title}</h3>
-                    <p>{book.price}</p>
+                    <p>{book.price}$</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               ))}
