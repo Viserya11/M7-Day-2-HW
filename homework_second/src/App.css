@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+footer {
+  bottom: 0;
+  background-color: black;
+  color: aliceblue;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+carousel {
+  max-height: 500px;
+  max-width: 300px;
+}
