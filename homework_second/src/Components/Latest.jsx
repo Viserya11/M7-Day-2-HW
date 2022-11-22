@@ -11,13 +11,13 @@ class Latest extends Component {
               {books.map((book) => (
                 <Carousel.Item key={book.id}>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 ratio"
                     src={book.img}
                     alt={book.title}
                   />
                   <Carousel.Caption className="caption">
                     <h3>{book.title}</h3>
-                    <p>{book.price}$</p>
+                    <p>{book.price} $</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               ))}
